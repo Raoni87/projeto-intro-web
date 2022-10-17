@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16pt arial;
+    list-style: none;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+}   
+
+main {
+    background-image: url(./img/background.jpg);
+}
+
+header{
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.976);
+    color: white;
+    
+}
+#pesquisar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    /* bottom: 0; */
+    /* margin-top: 20px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 54, 54);
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    padding: 10px;
+    
+    min-height: 50vh;
+
+    
+}
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+    max-width: 50%;
+}
+.jogo{
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 50vw;
+}
+
+
+.jogo img{
+    /* height: 30vh; */
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+  
+@media screen and (max-width: 400px) {
+    .jogo img{
+        width: 50vw;
+    }
+    .jogo{
+        flex-direction: column;
+    }   
+        
+        
+        
+        
+        
+    
+}
+@media screen and (max-width: 800px) {
+    .jogo img{
+        width: 40vw;
+        
+    }
+    .jogo {
+        flex-direction: column;
+    }  
+}
+        
+        
+        
+    
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+    
+    
